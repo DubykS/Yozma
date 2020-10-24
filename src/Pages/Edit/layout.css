@@ -1,0 +1,11 @@
+.form_sections{
+    display: grid;
+    grid-template-columns: 200px 200px 270px;
+    margin-bottom: 10px;
+    grid-column-gap: 20px;
+}
+input.error , input.error:focus{
+    border: 2px solid red;
+    outline: none;
+}
+.cancel{cursor: pointer}
